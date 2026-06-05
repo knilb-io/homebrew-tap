@@ -1,29 +1,29 @@
 class Knilb < Formula
   desc "Knilb command-line interface"
   homepage "https://github.com/knilb-io/knilb-dist"
-  version "0.6.0"
+  version "0.6.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/knilb-io/knilb-dist/releases/download/v0.6.0/knilb-macos-arm64.tar.gz"
-      sha256 "fea6a6b2fac3f762a1f3462bc2117c48f827e4bccc5e33c8b1d7ba4f67d5b7c1"
+      url "https://github.com/knilb-io/knilb-dist/releases/download/v0.6.1/knilb-macos-arm64.tar.gz"
+      sha256 "e992277b1ea81b61bcaafa6add51b5aa44831d5b25bcc60c0b9b2b8c50d8e408"
     end
 
     on_intel do
-      url "https://github.com/knilb-io/knilb-dist/releases/download/v0.6.0/knilb-macos-x86_64.tar.gz"
-      sha256 "64de34b6f86b9055b8483d0c184747613bb8d1790b966935bdcd0b3aaf9637f6"
+      url "https://github.com/knilb-io/knilb-dist/releases/download/v0.6.1/knilb-macos-x86_64.tar.gz"
+      sha256 "065d317accb0fe67d52f3d9ad58f4d8f98b69feb84a29dea314d22a8e74c317d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/knilb-io/knilb-dist/releases/download/v0.6.0/knilb-linux-arm64.tar.gz"
-      sha256 "4fb092175c3e42f2ac7733539f08a9cbd489c6e102e12fed658f5cb007cb2b89"
+      url "https://github.com/knilb-io/knilb-dist/releases/download/v0.6.1/knilb-linux-arm64.tar.gz"
+      sha256 "ef27314cddd9d49d39795007694f1b885dbe54e942a40b3fc9bc5d357cf1eb27"
     end
 
     on_intel do
-      url "https://github.com/knilb-io/knilb-dist/releases/download/v0.6.0/knilb-linux-x86_64.tar.gz"
-      sha256 "ce7ec70b143bf34d7fd2047ac1bf9650937795b4b00ee236f8713a129cbfa22c"
+      url "https://github.com/knilb-io/knilb-dist/releases/download/v0.6.1/knilb-linux-x86_64.tar.gz"
+      sha256 "e94b6d3d09a15c1edd1ba49a0c43d50a133d466c4aa4cfbfe5d3cbb1ac4f631e"
     end
   end
 
